@@ -56,31 +56,31 @@ void mostrarDiagnosticoZona(const DiagnosticoZona* diagnostico) {
     if (diagnostico == NULL) return;
     
     printf("\n==================================================================\n");
-    printf("│ DIAGNOSTICO: %s\n", diagnostico->nombre_zona);
+    printf("| DIAGNOSTICO: %s\n", diagnostico->nombre_zona);
     printf("==================================================================\n");
     
-    printf("│ CO    : %7.2f | Limite: %6.2f | Desv: %+7.1f%% | %s\n",
+    printf("| CO    : %7.2f | Limite: %6.2f | Desv: %+7.1f%% | %s\n",
         diagnostico->co.valor_actual, diagnostico->co.limite,
         diagnostico->co.desviacion_porcentual, diagnostico->co.nivel_alerta);
     
-    printf("│ SO2   : %7.2f | Limite: %6.2f | Desv: %+7.1f%% | %s\n",
+    printf("| SO2   : %7.2f | Limite: %6.2f | Desv: %+7.1f%% | %s\n",
         diagnostico->so2.valor_actual, diagnostico->so2.limite,
         diagnostico->so2.desviacion_porcentual, diagnostico->so2.nivel_alerta);
     
-    printf("│ NO2   : %7.2f | Limite: %6.2f | Desv: %+7.1f%% | %s\n",
+    printf("| NO2   : %7.2f | Limite: %6.2f | Desv: %+7.1f%% | %s\n",
         diagnostico->no2.valor_actual, diagnostico->no2.limite,
         diagnostico->no2.desviacion_porcentual, diagnostico->no2.nivel_alerta);
     
-    printf("│ PM2.5 : %7.2f | Limite: %6.2f | Desv: %+7.1f%% | %s\n",
+    printf("| PM2.5 : %7.2f | Limite: %6.2f | Desv: %+7.1f%% | %s\n",
         diagnostico->pm25.valor_actual, diagnostico->pm25.limite,
         diagnostico->pm25.desviacion_porcentual, diagnostico->pm25.nivel_alerta);
     
     printf("\n==================================================================\n");
     
     if (diagnostico->alertas_activas == 0) {
-        printf("│ Estado General: NORMAL - Todos los contaminantes dentro de limites ✓\n");
+        printf("| Estado General: NORMAL - Todos los contaminantes dentro de limites \n");
     } else {
-        printf("│ Estado General: %d ALERTA(S) ACTIVA(S) - Revisar contaminantes\n",
+        printf("| Estado General: %d ALERTA(S) ACTIVA(S) - Revisar contaminantes\n",
             diagnostico->alertas_activas);
     }
     
