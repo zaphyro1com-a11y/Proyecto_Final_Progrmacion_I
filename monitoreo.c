@@ -55,9 +55,9 @@ void procesarMonitoreoActual(const ZonaUrbana* zona, DiagnosticoZona* diagnostic
 void mostrarDiagnosticoZona(const DiagnosticoZona* diagnostico) {
     if (diagnostico == NULL) return;
     
-    printf("\n┌─────────────────────────────────────────────────────────────┐\n");
+    printf("\n==================================================================\n");
     printf("│ DIAGNOSTICO: %s\n", diagnostico->nombre_zona);
-    printf("├─────────────────────────────────────────────────────────────┤\n");
+    printf("==================================================================\n");
     
     printf("│ CO    : %7.2f | Limite: %6.2f | Desv: %+7.1f%% | %s\n",
         diagnostico->co.valor_actual, diagnostico->co.limite,
@@ -75,7 +75,7 @@ void mostrarDiagnosticoZona(const DiagnosticoZona* diagnostico) {
         diagnostico->pm25.valor_actual, diagnostico->pm25.limite,
         diagnostico->pm25.desviacion_porcentual, diagnostico->pm25.nivel_alerta);
     
-    printf("├─────────────────────────────────────────────────────────────┤\n");
+    printf("\n==================================================================\n");
     
     if (diagnostico->alertas_activas == 0) {
         printf("│ Estado General: NORMAL - Todos los contaminantes dentro de limites ✓\n");
@@ -84,7 +84,7 @@ void mostrarDiagnosticoZona(const DiagnosticoZona* diagnostico) {
             diagnostico->alertas_activas);
     }
     
-    printf("└─────────────────────────────────────────────────────────────┘\n");
+    printf("\n==================================================================\n");
 }
 
 /**
@@ -97,10 +97,10 @@ void mostrarMonitoreoTodasLasZonas(const ZonaUrbana* zonas, int cantidad) {
     if (zonas == NULL || cantidad <= 0) return;
     
     printf("\n");
-    printf("╔═══════════════════════════════════════════════════════════╗\n");
-    printf("║          MONITOREO INTEGRAL DE CONTAMINACION             ║\n");
-    printf("║                   QUITO, ECUADOR                         ║\n");
-    printf("╚═══════════════════════════════════════════════════════════╝\n");
+    printf("================================================================\n");
+    printf("|          MONITOREO INTEGRAL DE CONTAMINACION             |\n");
+    printf("|                   QUITO, ECUADOR                         |\n");
+    printf("================================================================\n");
     
     /* Procesar y mostrar cada zona */
     for (i = 0; i < cantidad; i++) {
@@ -111,8 +111,8 @@ void mostrarMonitoreoTodasLasZonas(const ZonaUrbana* zonas, int cantidad) {
     
     /* Resumen general */
     printf("\n");
-    printf("╔═══════════════════════════════════════════════════════════╗\n");
-    printf("║ RESUMEN: %d Zonas monitoreadas | %d Total de alertas activas\n",
+    printf("================================================================\n");
+    printf("| RESUMEN: %d Zonas monitoreadas | %d Total de alertas activas |\n",
         cantidad, total_alertas);
-    printf("╚═══════════════════════════════════════════════════════════╝\n");
+    printf("================================================================\n");
 }
