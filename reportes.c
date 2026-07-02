@@ -59,10 +59,10 @@ void exportarZonaAArchivo(const ZonaUrbana* zona, FILE* archivo) {
     desv_pm25 = calcularDesviacionPorcentual(zona->actual.pm25, LIMITE_PM25);
     
     /* Encabezado de zona */
-    fprintf(archivo, "\n╔════════════════════════════════════════════════════════════╗\n");
-    fprintf(archivo, "║ ZONA: %-55s ║\n", zona->nombre);
-    fprintf(archivo, "║ ID: %d%-56s ║\n", zona->id, "");
-    fprintf(archivo, "╚════════════════════════════════════════════════════════════╝\n\n");
+    fprintf(archivo, "\n============================================================\n");
+    fprintf(archivo, "| ZONA: %-55s |\n", zona->nombre);
+    fprintf(archivo, "| ID: %d%-56s |\n", zona->id, "");
+    fprintf(archivo, "============================================================\n\n");
     
     /* Condiciones Climaticas */
     fprintf(archivo, "CONDICIONES CLIMATICAS ACTUALES:\n");
@@ -98,7 +98,7 @@ void exportarZonaAArchivo(const ZonaUrbana* zona, FILE* archivo) {
         fprintf(archivo, "  PM2.5: %.2f ug/m3\n\n", zona->prediccion.pm25);
     }
     
-    fprintf(archivo, "════════════════════════════════════════════════════════════\n");
+    fprintf(archivo, "============================================================\n");
 }
 
 /**
@@ -128,10 +128,10 @@ int generarReporteConsolidado(const ZonaUrbana* zonas, int cantidad,
     }
     
     /* Encabezado */
-    fprintf(archivo, "╔═══════════════════════════════════════════════════════════╗\n");
-    fprintf(archivo, "║   SISTEMA DE MONITOREO AMBIENTAL - QUITO, ECUADOR         ║\n");
-    fprintf(archivo, "║     Reporte Consolidado de Contaminacion del Aire         ║\n");
-    fprintf(archivo, "╚═══════════════════════════════════════════════════════════╝\n\n");
+    fprintf(archivo, "=============================================================\n");
+    fprintf(archivo, "|   SISTEMA DE MONITOREO AMBIENTAL - QUITO, ECUADOR         |\n");
+    fprintf(archivo, "|     Reporte Consolidado de Contaminacion del Aire         |\n");
+    fprintf(archivo, "============================================================\n\n");
     
     fprintf(archivo, "Fechas del reporte:\n");
     fprintf(archivo, "  Generado: [dinamico en tiempo de ejecucion]\n");
@@ -151,11 +151,11 @@ int generarReporteConsolidado(const ZonaUrbana* zonas, int cantidad,
     }
     
     /* Pie del reporte */
-    fprintf(archivo, "\n╔═══════════════════════════════════════════════════════════╗\n");
-    fprintf(archivo, "║                    FIN DEL REPORTE                        ║\n");
-    fprintf(archivo, "║              Para consultas, contactar a:                 ║\n");
-    fprintf(archivo, "║        Sistema de Gestion Ambiental - Quito 2026          ║\n");
-    fprintf(archivo, "╚═══════════════════════════════════════════════════════════╝\n");
+    fprintf(archivo, "\n===========================================================\n");
+    fprintf(archivo, "|                    FIN DEL REPORTE                        |\n");
+    fprintf(archivo, "|              Para consultas, contactar a:                 |\n");
+    fprintf(archivo, "|        Sistema de Gestion Ambiental - Quito 2026          |\n");
+    fprintf(archivo, "============================================================\n");
     
     fclose(archivo);
     printf("[*] Reporte generado exitosamente: %s\n", ARCHIVO_REPORTE);
