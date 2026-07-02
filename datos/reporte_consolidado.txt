@@ -1,0 +1,172 @@
+╔═══════════════════════════════════════════════════════════╗
+║   SISTEMA DE MONITOREO AMBIENTAL - QUITO, ECUADOR         ║
+║     Reporte Consolidado de Contaminacion del Aire         ║
+╚═══════════════════════════════════════════════════════════╝
+
+Fechas del reporte:
+  Generado: [dinamico en tiempo de ejecucion]
+  Limites OMS 2021 (valores mas restrictivos):
+    - CO:    10.00 mg/m3 (8h)
+    - SO2:   40.00 ug/m3 (24h)
+    - NO2:   25.00 ug/m3 (anual)
+    - PM2.5: 15.00 ug/m3 (anual)
+
+RESUMEN DE ZONAS MONITOREADAS:
+Total de zonas: 5
+
+
+╔════════════════════════════════════════════════════════════╗
+║ ZONA: Quito Centro                                            ║
+║ ID: 0                                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+CONDICIONES CLIMATICAS ACTUALES:
+  Temperatura:      20.0 C
+  Velocidad viento: 12.0 km/h
+  Humedad relativa: 78.0 %
+
+CONTAMINANTES ACTUALES:
+  CO:      10.57 mg/m3 | Limite:  10.00 | Desv:    +5.7% | Estado: NORMAL
+  SO2:     19.30 ug/m3 | Limite:  40.00 | Desv:   -51.8% | Estado: NORMAL
+  NO2:     30.90 ug/m3 | Limite:  25.00 | Desv:   +23.6% | Estado: MODERADA
+  PM2.5:   35.53 ug/m3 | Limite:  15.00 | Desv:  +136.9% | Estado: CRITICA
+
+PROMEDIOS HISTORICOS (30 DIAS):
+  CO:    23.03 mg/m3
+  SO2:   23.97 ug/m3
+  NO2:   24.27 ug/m3
+  PM2.5: 23.40 ug/m3
+
+PREDICCION (24 HORAS SIGUIENTES):
+  CO:    22.91 mg/m3
+  SO2:   23.94 ug/m3
+  NO2:   24.98 ug/m3
+  PM2.5: 23.73 ug/m3
+
+════════════════════════════════════════════════════════════
+
+╔════════════════════════════════════════════════════════════╗
+║ ZONA: La Mariscal                                             ║
+║ ID: 1                                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+CONDICIONES CLIMATICAS ACTUALES:
+  Temperatura:      20.0 C
+  Velocidad viento: 12.0 km/h
+  Humedad relativa: 64.0 %
+
+CONTAMINANTES ACTUALES:
+  CO:      10.47 mg/m3 | Limite:  10.00 | Desv:    +4.7% | Estado: NORMAL
+  SO2:     16.23 ug/m3 | Limite:  40.00 | Desv:   -59.4% | Estado: NORMAL
+  NO2:     30.53 ug/m3 | Limite:  25.00 | Desv:   +22.1% | Estado: MODERADA
+  PM2.5:   39.67 ug/m3 | Limite:  15.00 | Desv:  +164.4% | Estado: CRITICA
+
+PROMEDIOS HISTORICOS (30 DIAS):
+  CO:    21.17 mg/m3
+  SO2:   22.20 ug/m3
+  NO2:   22.73 ug/m3
+  PM2.5: 21.80 ug/m3
+
+PREDICCION (24 HORAS SIGUIENTES):
+  CO:    21.42 mg/m3
+  SO2:   22.38 ug/m3
+  NO2:   23.01 ug/m3
+  PM2.5: 22.19 ug/m3
+
+════════════════════════════════════════════════════════════
+
+╔════════════════════════════════════════════════════════════╗
+║ ZONA: Calderon                                                ║
+║ ID: 2                                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+CONDICIONES CLIMATICAS ACTUALES:
+  Temperatura:      18.0 C
+  Velocidad viento: 18.0 km/h
+  Humedad relativa: 72.0 %
+
+CONTAMINANTES ACTUALES:
+  CO:       6.40 mg/m3 | Limite:  10.00 | Desv:   -36.0% | Estado: NORMAL
+  SO2:     23.40 ug/m3 | Limite:  40.00 | Desv:   -41.5% | Estado: NORMAL
+  NO2:     34.03 ug/m3 | Limite:  25.00 | Desv:   +36.1% | Estado: CRITICA
+  PM2.5:   35.03 ug/m3 | Limite:  15.00 | Desv:  +133.6% | Estado: CRITICA
+
+PROMEDIOS HISTORICOS (30 DIAS):
+  CO:    22.73 mg/m3
+  SO2:   23.83 ug/m3
+  NO2:   23.97 ug/m3
+  PM2.5: 23.53 ug/m3
+
+PREDICCION (24 HORAS SIGUIENTES):
+  CO:    22.76 mg/m3
+  SO2:   23.81 ug/m3
+  NO2:   23.88 ug/m3
+  PM2.5: 22.72 ug/m3
+
+════════════════════════════════════════════════════════════
+
+╔════════════════════════════════════════════════════════════╗
+║ ZONA: Cumbaya                                                 ║
+║ ID: 3                                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+CONDICIONES CLIMATICAS ACTUALES:
+  Temperatura:      17.0 C
+  Velocidad viento: 22.0 km/h
+  Humedad relativa: 68.0 %
+
+CONTAMINANTES ACTUALES:
+  CO:      11.20 mg/m3 | Limite:  10.00 | Desv:   +12.0% | Estado: MODERADA
+  SO2:     21.97 ug/m3 | Limite:  40.00 | Desv:   -45.1% | Estado: NORMAL
+  NO2:     27.33 ug/m3 | Limite:  25.00 | Desv:    +9.3% | Estado: NORMAL
+  PM2.5:   39.13 ug/m3 | Limite:  15.00 | Desv:  +160.9% | Estado: CRITICA
+
+PROMEDIOS HISTORICOS (30 DIAS):
+  CO:    24.20 mg/m3
+  SO2:   25.13 ug/m3
+  NO2:   26.10 ug/m3
+  PM2.5: 25.33 ug/m3
+
+PREDICCION (24 HORAS SIGUIENTES):
+  CO:    20.55 mg/m3
+  SO2:   21.19 ug/m3
+  NO2:   22.38 ug/m3
+  PM2.5: 21.50 ug/m3
+
+════════════════════════════════════════════════════════════
+
+╔════════════════════════════════════════════════════════════╗
+║ ZONA: Turubamba                                               ║
+║ ID: 4                                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+CONDICIONES CLIMATICAS ACTUALES:
+  Temperatura:      17.0 C
+  Velocidad viento: 11.0 km/h
+  Humedad relativa: 69.0 %
+
+CONTAMINANTES ACTUALES:
+  CO:       7.10 mg/m3 | Limite:  10.00 | Desv:   -29.0% | Estado: NORMAL
+  SO2:     19.23 ug/m3 | Limite:  40.00 | Desv:   -51.9% | Estado: NORMAL
+  NO2:     30.27 ug/m3 | Limite:  25.00 | Desv:   +21.1% | Estado: MODERADA
+  PM2.5:   35.50 ug/m3 | Limite:  15.00 | Desv:  +136.7% | Estado: CRITICA
+
+PROMEDIOS HISTORICOS (30 DIAS):
+  CO:    23.53 mg/m3
+  SO2:   24.57 ug/m3
+  NO2:   25.17 ug/m3
+  PM2.5: 24.07 ug/m3
+
+PREDICCION (24 HORAS SIGUIENTES):
+  CO:    22.47 mg/m3
+  SO2:   23.53 ug/m3
+  NO2:   24.53 ug/m3
+  PM2.5: 23.35 ug/m3
+
+════════════════════════════════════════════════════════════
+
+╔═══════════════════════════════════════════════════════════╗
+║                    FIN DEL REPORTE                        ║
+║              Para consultas, contactar a:                 ║
+║        Sistema de Gestion Ambiental - Quito 2026          ║
+╚═══════════════════════════════════════════════════════════╝

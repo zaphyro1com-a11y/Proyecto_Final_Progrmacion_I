@@ -1,10 +1,19 @@
-# ESPECIFICACIONES TÉCNICAS DE DESARROLLO: SISTEMA DE MONITOREO AMBIENTAL C
-# ROL PARA EL AGENTE DE IA: Arquitecto de Software y Programador Experto en C
+# SISTEMA INTEGRAL DE GESTIÓN Y PREDICCIÓN DE CONTAMINACIÓN DEL AIRE EN QUITO
+
+## Descripción General
+
+Sistema completo en C (ANSI C89) para monitoreo ambiental de contaminación del aire en Quito, Ecuador. Implementa análisis de 4 contaminantes en 5 parroquias urbanas, predicción ponderada 24h, sistema de alertas con recomendaciones de mitigación, y persistencia de datos.
+
+**Desarrollado:** Julio 2026  
+**Lenguaje:** C (ANSI C89 Strict)  
+**Compilador:** GCC con flags `-Wall -Wextra -ansi -pedantic -O2`  
+**Memoria:** Stack-only (sin malloc/free)
 
 ---
 
-## 1. OBJETIVO DEL SISTEMA
-Diseñar e implementar un programa modular en Lenguaje C ejecutable para el "Sistema Integral de Gestión y Predicción de Contaminación del Aire en Zonas Urbanas". El sistema debe evaluar y mitigar los impactos de los contaminantes atmosféricos en la salud pública y el medio ambiente en un mínimo de 5 zonas urbanas.
+## Arquitectura Modular
+
+El sistema está dividido en **10 módulos** independientes:
 
 ---
 
