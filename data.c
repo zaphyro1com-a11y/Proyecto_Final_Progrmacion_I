@@ -121,10 +121,10 @@ void mostrarResumenDatos(const ZonaUrbana* zonas, int cantidad) {
     if (zonas == NULL || cantidad <= 0) return;
     
     printf("\n");
-    printf("╔════════════════════════════════════════════════════════════════╗\n");
-    printf("║       SISTEMA DE MONITOREO AMBIENTAL - QUITO, ECUADOR         ║\n");
-    printf("║                  Datos Inicializados (5 Zonas)                ║\n");
-    printf("╚════════════════════════════════════════════════════════════════╝\n");
+    printf("================================================================\n");
+    printf("|       SISTEMA DE MONITOREO AMBIENTAL - QUITO, ECUADOR         |\n");
+    printf("|                  Datos Inicializados (5 Zonas)                |\n");
+    printf("================================================================\n");
     
     printf("\n%-20s | CO(mg) | SO2(ug) | NO2(ug) | PM2.5(ug) | Temp(C) | Viento(km/h)\n", "Parroquia");
     printf("%-20s-+--------+--------+--------+----------+---------+-------------\n", "");

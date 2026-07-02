@@ -127,11 +127,10 @@ void mostrarPrediccionesTodasLasZonas(const ZonaUrbana* zonas, int cantidad) {
     if (zonas == NULL) return;
     
     printf("\n");
-    printf("ÔòöÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòù\n");
-    printf("Ôòæ      PREDICCION DE CONTAMINACION - PROXIMAS 24H               Ôòæ\n");
-    printf("Ôòæ                 QUITO, ECUADOR                          Ôòæ\n");
-    printf("ÔòÜÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòØ\n");
-    
+    printf(" ==========================================================\n");
+    printf("||      PREDICCION DE CONTAMINACION - PROXIMAS 24H        ||\n");
+    printf("||                 QUITO, ECUADOR                         ||\n");
+    printf(" ==========================================================\n");
     for (i = 0; i < cantidad; i++) {
         mostrarPrediccionesZona(&zonas[i]);
     }

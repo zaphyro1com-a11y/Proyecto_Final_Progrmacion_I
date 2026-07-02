@@ -15,11 +15,11 @@ int main(void) {
     ZonaUrbana zonas[MAX_ZONAS];
     int zonas_cargadas;
     
-    printf("\n╔════════════════════════════════════════════════════════════════╗\n");
-    printf("║  SISTEMA INTEGRAL DE GESTION Y PREDICCION DE CONTAMINACION    ║\n");
-    printf("║                     DEL AIRE EN QUITO                         ║\n");
-    printf("║                      Ecuador - 2026                          ║\n");
-    printf("╚════════════════════════════════════════════════════════════════╝\n");
+    printf("\n=================================================================\n");
+    printf("||  SISTEMA INTEGRAL DE GESTION Y PREDICCION DE CONTAMINACION    ||\n");
+    printf("||                    DEL AIRE EN QUITO                          ||\n");
+    printf("||                    Ecuador - 2026                             ||\n");
+    printf(" =================================================================\n");
     
     printf("\nLimites OMS 2021 (utilizados en el sistema):\n");
     printf("  - CO:    %.2f mg/m3 (8h)\n", LIMITE_CO);

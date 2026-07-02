@@ -154,7 +154,7 @@ void mostrarAlertasZona(const ZonaUrbana* zona) {
     if (zona == NULL) return;
     
     printf("\n%s - ALERTAS Y RECOMENDACIONES\n", zona->nombre);
-    printf("════════════════════════════════════════════════════════════\n");
+    printf("----------------------------------------------\n");
     
     num_alertas = evaluarAlertasZona(zona, alertas);
     
@@ -183,10 +183,10 @@ int mostrarAlertasTodas(const ZonaUrbana* zonas, int cantidad) {
     if (zonas == NULL) return 0;
     
     printf("\n");
-    printf("ÔòöÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòù\n");
-    printf("Ôòæ      SISTEMA DE ALERTAS Y RECOMENDACIONES DE MITIGACION      Ôòæ\n");
-    printf("Ôòæ                 QUITO, ECUADOR                          Ôòæ\n");
-    printf("ÔòÜÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòØ\n");
+    printf(" ================================================================ \n");
+    printf("||      SISTEMA DE ALERTAS Y RECOMENDACIONES DE MITIGACION      ||\n");
+    printf("||                 QUITO, ECUADOR                               ||\n");
+    printf(" ================================================================ \n");
     
     for (i = 0; i < cantidad; i++) {
         int zona_alertas = evaluarAlertasZona(&zonas[i], NULL);
@@ -195,9 +195,9 @@ int mostrarAlertasTodas(const ZonaUrbana* zonas, int cantidad) {
     }
     
     printf("\n");
-    printf("ÔòöÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòù\n");
-    printf("Ôòæ RESUMEN: %d Total de alertas activas en el sistema          Ôòæ\n", total_alertas);
-    printf("ÔòÜÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòØ\n");
+    printf(" ===============================================================\n");
+    printf("|| RESUMEN: %d Total de alertas activas en el sistema          ||\n", total_alertas);
+    printf(" ===============================================================\n");
     
     return total_alertas;
 }

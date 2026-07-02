@@ -15,9 +15,9 @@ int mostrarMenuPrincipal(void) {
     int opcion;
     
     printf("\n");
-    printf("ÔòöÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòù\n");
-    printf("Ôòæ            MENU PRINCIPAL - SISTEMA DE MONITOREO            Ôòæ\n");
-    printf("ÔòÜÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòØ\n");
+    printf("=================================================================\n");
+    printf("||            MENU PRINCIPAL - SISTEMA DE MONITOREO            ||\n");
+    printf("=================================================================\n");
     printf("\n");
     printf("  1. Ver monitoreo actual de todas las zonas\n");
     printf("  2. Ver predicciones para proximas 24 horas\n");
